@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>hauck-es.de</title>
+	<title>Titel Ihrer Webseite</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
@@ -21,12 +21,17 @@
 			animation: fadeIn 2s ease-in-out;
 		}
 		a {
-			position: absolute;
-			bottom: 20px;
-			right: 20px;
 			font-size: 24px;
 			color: #003049;
 			text-decoration: none;
+			position: absolute;
+			bottom: 20px;
+		}
+		a.left {
+			left: 20px;
+		}
+		a.right {
+			right: 20px;
 		}
 		@keyframes fadeIn {
 			0% {
@@ -40,6 +45,7 @@
 </head>
 <body>
 	<p>This domain is hosted by Godaddy</p>
-	<a href="https://link.hauck-es.de/exchange">Webmail</a>
+	<a href="https://link.hauck-es.de/cloud" title="Cloud" class="left">Cloud</a>
+	<a href="https://link.hauck-es.de/exchange" title="Webmail" class="right">Webmail</a>
 </body>
 </html>
